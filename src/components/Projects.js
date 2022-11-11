@@ -1,4 +1,6 @@
 import React from "react";
+import projects from "../assets/img11.png";
+import img3 from "../assets/img3.png";
 
 export const Projects = () => {
   return (
@@ -11,11 +13,7 @@ export const Projects = () => {
           {/* <!-- project1 --> */}
           <div class="row">
             <div class="col-md">
-              <img
-                src="./assets/img11.png"
-                alt="portfolio project"
-                width="60%"
-              />
+              <img src={projects} alt="portfolio project" width="60%" />
             </div>
             <div class="col">
               <h2> Project 1</h2>
@@ -41,11 +39,7 @@ export const Projects = () => {
           {/* <!-- project2 --> */}
           <div class="row py-5 ">
             <div class="col-md order-md-2 mb-3">
-              <img
-                src="./assets/img3.png"
-                alt="portfolio project"
-                width="60%"
-              />
+              <img src={img3} alt="portfolio project" width="60%" />
             </div>
             <div class="col">
               <h2> Project 2</h2>
@@ -72,11 +66,7 @@ export const Projects = () => {
           {/* <!-- project3 --> */}
           <div class="row">
             <div class="col-md">
-              <img
-                src="./assets/img3.png"
-                alt="portfolio project"
-                width="60%"
-              />
+              <img src={img3} alt="portfolio project" width="60%" />
             </div>
             <div class="col">
               <h2> Project 3</h2>

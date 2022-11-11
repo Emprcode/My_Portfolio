@@ -1,4 +1,5 @@
 import React from "react";
+import fox from "../assets/fox.jpg";
 
 export const Hero = () => {
   return (
@@ -8,7 +9,7 @@ export const Hero = () => {
           {/* <!-- .row>.col*2  --> */}
           <div class="row py-5 ">
             <div class="col-md-5 text-center order-md-2 mt-5 ">
-              <img src="./assets/fox.jpg" alt="my-image" width="80%" />
+              <img src={fox} alt="my-image" width="80%" />
             </div>
             <div class="col-md-7 mt-5 pt-5 ">
               Hi <span class="fw-bold">NARAYAN ARYAL</span>
