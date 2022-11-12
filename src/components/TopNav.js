@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/img1.png'
+import img from '../assets/img1.png'
 
 export const TopNav = () => {
   return (
@@ -8,7 +8,7 @@ export const TopNav = () => {
     <nav class="navbar navbar-expand-sm bg-none">
         <div class="container">
           <a class="navbar-brand" href="#">
-          <img src={logo} alt="logo" width="70px"/>
+          <img src={img} alt="logo" width="70px"/>
         </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
