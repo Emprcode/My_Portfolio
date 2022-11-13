@@ -85,7 +85,9 @@ text-fill-color: transparent;
     font-size: 2rem;
     
 }
-/* .mobile-navbar{
-    display: flex !important;
+.mobile-navbar {
+    display: flex ;
+    justify-content: space-around !important;
+    align-items: flex-end !important;
     
-} */
+}
