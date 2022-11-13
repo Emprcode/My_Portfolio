@@ -1,9 +1,12 @@
 import React from "react";
 import about from "../assets/about.jpg";
+import { Layout } from "./Layout";
 
 export const AboutMe = () => {
   return (
+    <Layout>
     <div id="about-me" class="container">
+       
       <div class="title">
         <span>ABOUT ME</span>
       </div>
@@ -27,5 +30,6 @@ export const AboutMe = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 };

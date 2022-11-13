@@ -36,6 +36,7 @@
 }
 .icons div{
     margin-bottom: 3rem;
+    margin-right: 2rem;
     
     display: flex;
     flex-direction: column;
@@ -85,3 +86,12 @@ text-fill-color: transparent;
     font-size: 2rem;
     
 }
+.mobile-navbar {
+    display: flex ;
+    justify-content: space-around !important;
+    align-items: flex-end !important;
+    
+}
+/* .main-layout{
+    min-height: 50vh;
+} */

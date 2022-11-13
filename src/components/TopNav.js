@@ -1,38 +1,31 @@
 import React from 'react'
 import img from '../assets/img1.png'
-import {Link} from 'react-router-dom'
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
+
+
 
 export const TopNav = () => {
   return (
-    <div>
-          <div id="navbar" class="nav-bar">
-    <nav class="navbar navbar-expand-sm bg-none">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-          <img src={img} alt="logo" width="70px"/>
-        </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
-              </li>  
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    </div>
+    <Navbar  expand="md" id="navbar" className= "nav-bar" collapseOnSelect>
+    <Container>
+      <Link to="/"> <img src={img} alt="logo" width="70px"/></Link>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ms-auto p-3 fw-bold mobile-navbar " >
+          <Link  className='nav-link' to="/skills">Skills</Link>
+          <Link className='nav-link' to="/projects">Projects</Link>
+          <Link className='nav-link' to="/about-me">About me</Link>
+          <Link className='nav-link' to="/contact">Contact</Link>
+         
+          
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
+    
+    
   )
 }

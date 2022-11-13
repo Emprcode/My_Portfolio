@@ -1,10 +1,12 @@
 import React from "react";
 import projects from "../assets/img11.png";
 import img3 from "../assets/img3.png";
+import { Layout } from "./Layout";
 
 export const Projects = () => {
   return (
-    <div>
+    <>
+    <Layout>
       <div id="projects" class="projects py-3">
         <div class="title">
           <span>Projects</span>
@@ -91,6 +93,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+      </Layout>
+    </>
   );
 };
