@@ -1,5 +1,6 @@
 import React from 'react'
 import img from '../assets/img1.png'
+import {Link} from 'react-router-dom'
 
 export const TopNav = () => {
   return (

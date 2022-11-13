@@ -14,6 +14,9 @@ export const Skills = () => {
             <div class="icons ">
               <div>
                 {" "}
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Learn/HTML"
+                  target="_blank"></a>{" "}
                 <i class="fa-brands fa-html5 text-danger"></i>HTML
               </div>
               <div>

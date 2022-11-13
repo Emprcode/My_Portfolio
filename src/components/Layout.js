@@ -1,8 +1,10 @@
 import React from 'react'
+import { TopNav } from './TopNav'
 
 export const Layout = ({children}) => {
   return (
     <>
+     <TopNav />
     {children}
          <footer class="bg-dark  p-5 text-center mt-5 xyz">
       {/* <!-- text-light --> */}
