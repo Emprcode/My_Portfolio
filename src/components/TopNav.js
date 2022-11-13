@@ -12,7 +12,7 @@ export const TopNav = () => {
       <Navbar.Brand href="#home"> <img src={img} alt="logo" width="70px"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ms-auto " >
+        <Nav className="ms-auto p-3 fw-bold mobile-navbar " >
           <Nav.Link  href="#skills">Skills</Nav.Link>
           <Nav.Link  href="#projects">Projects</Nav.Link>
           <Nav.Link  href="#about-me">About me</Nav.Link>
