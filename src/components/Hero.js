@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/my_image.jpeg";
+import resume from "../assets/Resume.pdf";
 
 export const Hero = () => {
   return (
@@ -21,10 +22,11 @@ export const Hero = () => {
                 I love coding and enjoy myself working on projects. I like to
                 solve problems and I have positive attitude.
               </p>
-              <button class="btn btn-danger">
-                {" "}
-                Download Resume <i class="fa-solid fa-download"></i>
-              </button>
+              <a href={resume} download={true}>
+                <button className="btn btn-danger">
+                  Download Resume <i className="fa-solid fa-download"></i>
+                </button>
+              </a>
             </div>
           </div>
         </div>
