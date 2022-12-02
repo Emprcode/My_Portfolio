@@ -1,5 +1,6 @@
 import React from "react";
-import fox from "../assets/fox.jpg";
+import image from "../assets/my_image.jpeg";
+import resume from "../assets/Resume.pdf";
 
 export const Hero = () => {
   return (
@@ -9,7 +10,7 @@ export const Hero = () => {
           {/* <!-- .row>.col*2  --> */}
           <div class="row py-5 ">
             <div class="col-md-5 text-center order-md-2 mt-5 ">
-              <img src={fox} alt="my-image" width="80%" />
+              <img src={image} alt="my-image" width="80%" />
             </div>
             <div class="col-md-7 mt-5 pt-5 ">
               Hi <span class="fw-bold">NARAYAN ARYAL</span>
@@ -21,10 +22,11 @@ export const Hero = () => {
                 I love coding and enjoy myself working on projects. I like to
                 solve problems and I have positive attitude.
               </p>
-              <button class="btn btn-danger">
-                {" "}
-                Download Resume <i class="fa-solid fa-download"></i>
-              </button>
+              <a href={resume} download={true}>
+                <button className="btn btn-danger">
+                  Download Resume <i className="fa-solid fa-download"></i>
+                </button>
+              </a>
             </div>
           </div>
         </div>
