@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/my_image.jpeg";
 import resume from "../assets/Resume.pdf";
+import { motion } from "framer-motion";
 
 export const Hero = () => {
   return (
@@ -13,10 +14,22 @@ export const Hero = () => {
               <img src={image} alt="my-image" width="80%" />
             </div>
             <div class="col-md-7 mt-5 pt-5 ">
-              Hi <span class="fw-bold">NARAYAN ARYAL</span>
-              <div class="mt-2 mb-5 fs-4 fw-bold">
-                {" "}
-                software Engineer | Full stack developer
+              Hi
+              <span className=" fs-6 fw-bold">
+                <motion.h3
+                  initial={{ x: -100 }}
+                  animate={{ x: 100 }}
+                  transition={{ ease: "easeIn", duration: 1 }}>
+                  NARAYAN ARYAL
+                </motion.h3>
+              </span>
+              <div className="mt-2 mb-5 fs-4 fw-bold">
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1 }}>
+                  software Engineer | Full stack developer
+                </motion.div>
               </div>
               <p class="text-center">
                 I love coding and enjoy myself working on projects. I like to
