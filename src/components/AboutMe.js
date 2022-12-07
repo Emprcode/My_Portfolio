@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/about.jpg";
+import image from "../assets/my_image.jpeg";
 
 export const AboutMe = () => {
   return (
@@ -9,7 +9,7 @@ export const AboutMe = () => {
       </div>
       <div class="row">
         <div class="col-md-4 mb-3">
-          <img src={about} alt="some img" width="50%" />
+          <img src={image} alt="some img" width="90%" />
         </div>
         <div class="col-md-8 text-center">
           <p>

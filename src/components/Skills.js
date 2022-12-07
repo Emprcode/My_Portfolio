@@ -13,7 +13,6 @@ export const Skills = () => {
             {/* <!-- icons  --> */}
             <div class="icons ">
               <div>
-                {" "}
                 <i class="fa-brands fa-html5 text-danger"></i>HTML
               </div>
               <div>
@@ -28,9 +27,20 @@ export const Skills = () => {
                 {" "}
                 <i class="fa-brands fa-bootstrap text-success"></i> BOOTSTRAP
               </div>
-              {/* <!-- <div><i class="fa-brands fa-python"></i> PYTHON</div> --> */}
+              <div>
+                <i class="fa-brands text-primary fa-python"></i> PYTHON
+              </div>
               <div>
                 <i class="fa-brands fa-figma"></i> FIGMA
+              </div>
+              <div>
+                <i class="fa-brands fa-react"></i>REACT
+              </div>
+              <div>
+                <i class="fa-brands fa-node-js"></i>NODE
+              </div>
+              <div>
+                <i class="fa-solid fa-database"></i>MONGODB
               </div>
             </div>
           </div>
