@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logotop.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,7 +8,7 @@ export const TopNav = () => {
   return (
     <Navbar  expand="lg" id="navbar" className= "nav-bar" collapseOnSelect>
     <Container>
-      <Navbar.Brand href="#home"> <img src={logo} alt="logo" width="70px" className='rounded-circle' /></Navbar.Brand>
+      <Navbar.Brand href="#home"> <img src={logo} alt="logo" width="70px"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto p-3 fw-bold mobile-navbar " >
