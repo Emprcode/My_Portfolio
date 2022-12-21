@@ -9,7 +9,7 @@ export const TopNav = () => {
   return (
     <Navbar  expand="lg" id="navbar" className= "nav-bar" collapseOnSelect>
     <Container>
-      <Navbar.Brand href="#home"> <img src={logo} alt="logo" width="70px"/></Navbar.Brand>
+      <Navbar.Brand href="#home"> <img className='rounded-circle' src={logo} alt="logo" width="70px" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto p-3 fw-bold mobile-navbar " >
